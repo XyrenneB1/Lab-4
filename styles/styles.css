@@ -6,3 +6,6 @@
 }
 
 /*two equal columns*/
+.containerlayout-1 {
+  display: flex;
+}
