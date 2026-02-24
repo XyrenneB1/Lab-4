@@ -5,3 +5,13 @@
   border: 1px solid black;
 }
 /*two equally sized columns*/
+.outer-box {
+  display: flex;
+  padding: 15px;
+  gap: 15px;
+}
+/*columns*/
+.column {
+  flex: 1;
+  height: 50px;
+}
