@@ -1,1 +1,8 @@
+/*box formatting*/
+.box {
+  height: 50px;
+  color: gray;
+  border: aqua 2px solid;
+}
 
+/*two equal columns*/
