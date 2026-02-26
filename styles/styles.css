@@ -1,11 +1,39 @@
-/*box formatting*/
-.box {
-  height: 50px;
-  color: gray;
-  border: aqua 2px solid;
+/* Page styles */
+body {
+  margin: 40px;
+  font-family: Arial, sans-serif;
 }
 
-/*two equal columns*/
-.containerlayout-1 {
+/* Header styles */
+h1,
+h2 {
+  font-family: 500;
+}
+
+/* Box styles */
+.column {
+  height: 50px;
+  background-color: gray fill;
+  border: 2px solid lightblue;
+}
+
+/* Two column layout */
+.layout-1 {
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+  border: 2px solid lightblue;
+}
+
+/* Three column layout */
+.layout-2 {
+  display: flex;
+  gap: 15px;
+  padding: 15px;
+  border: 2px solid lightblue;
+}
+
+/* Three unequal column layout */
+.layout-3 {
   display: flex;
 }
